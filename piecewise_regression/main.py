@@ -1125,8 +1125,8 @@ class Fit:
             table_contents += single_line
 
             table_contents += (
-                "These alphas(gradients of segments) are estimated"
-                "from betas(change in gradient)\n")
+                "These alphas (gradients of segments) are estimated "
+                "from betas (change in gradient)\n")
 
             alpha_names = ["alpha{}".format(
                 alpha_i + 1) for alpha_i in range(1, self.n_breakpoints + 1)]
